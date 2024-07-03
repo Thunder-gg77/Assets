@@ -3,7 +3,7 @@ import React from 'react'
 
 const Tab = () => {
   return (
-    <div style={{marginLeft:'45%',marginTop:'10%'}}>
+    <div style={{"margin":'10%',marginTop:'10%'}}>
      
       <TableContainer/>
       <Table>

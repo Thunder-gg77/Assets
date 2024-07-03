@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Reg from './components/Reg'
 import Navbar from './components/Navbar'
@@ -11,7 +8,7 @@ import Counter from './components/Counter'
 import New from './components/New'
 import Formbasic from './components/Formbasic'
 import Apiget from './components/Apiget'
-import GriD from './components/Grid'
+// import GridA from './components/Grid'
 
 
 function App() {
@@ -30,7 +27,7 @@ function App() {
       <Route path='/f'element={<New/>}/>
       <Route path='/i'element={<Formbasic />}/>
       <Route path='/j'element={<Apiget />}/>
-      <Route path='/x'element={<GriD />}/>
+      {/* <Route path='/x'element={<GridA />}/> */}
     </Routes> 
     </>
 
