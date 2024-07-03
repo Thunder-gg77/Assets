@@ -4,7 +4,7 @@ import React from 'react'
 const First = () => {
   return (
     <div>
-      <h1>login page</h1>
+      <h1>Login Page</h1>
       <Typography variant='h3'>login page </Typography>
       <br />
       <TextField variant="outlined" label='name'/>
